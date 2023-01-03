@@ -3,4 +3,5 @@ public class Panino {
 	String descrizione;
 	int quantità;
 	double prezzo;
+	String nome;
 }

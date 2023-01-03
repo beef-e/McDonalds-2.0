@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ecaff6-ba2c-42ca-91bb-ac445d8fecf0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/McDonalds 2.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Panino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scontrino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tipo_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tipo_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tipo_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tipo_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tipo_5.java" afterDir="false" />
+    <list default="true" id="31ecaff6-ba2c-42ca-91bb-ac445d8fecf0" name="Changes" comment="Class Creation and setup">
+      <change afterPath="$PROJECT_DIR$/src/menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Panino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Panino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scontrino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scontrino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672760120413</updated>
     </task>
+    <task id="LOCAL-00001" summary="Class Creation and setup">
+      <created>1672762969597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672762969597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Class Creation and setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Creation and setup" />
   </component>
 </project>
