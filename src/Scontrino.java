@@ -1,8 +1,7 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Scontrino {
-
-	int [] scelti=new int[10];
 	public Scontrino(){
 
 	}
@@ -11,7 +10,7 @@ public class Scontrino {
 		Scanner input=new Scanner(System.in);
 		int scelta=input.nextInt();
 		if (scelta>0 && scelta<11){
-			aggiornaScontrino(scelta);
+	//		aggiornaScontrino(scelta);
 			System.out.println("Si desidera scegliere un altro panino?");
 			System.out.println("1: Sì");
 			System.out.println("0: No");
@@ -21,7 +20,7 @@ public class Scontrino {
 			if (otherPanin==1){
 				scegliere();
 			}else{
-				pagamento();
+			//	pagamento();
 			}
 
 		}else {
@@ -30,22 +29,11 @@ public class Scontrino {
 		}
 	}
 
-	void aggiornaScontrino(int scelta){
-		scelti[scelta]=scelti[scelta]+1;
-	}
-
-	void pagamento(){
+	public static void pagamento(ArrayList<Panino>purchased){
 		System.out.println("Si sono selezionati i seguenti panini: ");
-
-		for (int i = 0; i < 10; i++) {
-			if (scelti[i]>0){
-				System.out.print(scelti[i]+"x");
-				if (i%2==0){
-					System.out.print(" Numero2.\n");
-				}else{
-					System.out.print(" Numero1.\n");
-				}
-			}
+		for (int i = 0; i < purchased.size(); i++) {
+			System.out.println("" +purchased.get(i).nome +"€" +purchased.get(i).prezzo);
 		}
+
 	}
 }
