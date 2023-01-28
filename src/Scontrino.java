@@ -2,11 +2,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Scontrino {
+
+	static double totale=0;
 	public Scontrino(){
 
 	}
 
-	void scegliere(){
+	/*void scegliere(){
 		Scanner input=new Scanner(System.in);
 		int scelta=input.nextInt();
 		if (scelta>0 && scelta<11){
@@ -27,13 +29,14 @@ public class Scontrino {
 			System.out.println("Si è pregati di scegliere un numero valido");
 			scegliere();
 		}
-	}
+	}*/
 
 	public static void pagamento(ArrayList<Panino>purchased){
 		System.out.println("Si sono selezionati i seguenti panini: ");
 		for (int i = 0; i < purchased.size(); i++) {
-			System.out.println("" +purchased.get(i).nome +"€" +purchased.get(i).prezzo);
+			System.out.println("" +purchased.get(i).nome +"   €" +purchased.get(i).prezzo);
+			totale=totale+purchased.get(i).prezzo;
 		}
-
+		System.out.println("TOTALE>>>   "+"€"+totale);
 	}
 }

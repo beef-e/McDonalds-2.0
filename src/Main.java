@@ -18,7 +18,27 @@ public class Main {
 		quarta.composizione();
 		quinta.composizione();
 
-		System.out.println("Benvenuto in McDonald's. Prego, scegli il tuo panino");
+		choice(prima, seconda, terza, quarta, quinta, purchased);
+
+
+	}
+
+	public static void stampaMenu(Tipo_1 prima, Tipo_2 seconda, Tipo_3 terza, Tipo_4 quarta, Tipo_5 quinta){
+		System.out.print("1. "+prima.panino1.nome +" "+prima.panino1.prezzo +"€" +"\n");
+		System.out.print("2. "+prima.panino2.nome +" "+prima.panino2.prezzo +"€" +"\n");
+		System.out.print("3. "+seconda.panino1.nome +" "+seconda.panino1.prezzo +"€" +"\n");
+		System.out.print("4. "+seconda.panino2.nome +" "+seconda.panino2.prezzo +"€" +"\n");
+		System.out.print("5. "+terza.panino1.nome +" "+terza.panino1.prezzo +"€" +"\n");
+		System.out.print("6. "+terza.panino2.nome +" "+terza.panino2.prezzo +"€" +"\n");
+		System.out.print("7. "+quarta.panino1.nome +" "+quarta.panino1.prezzo +"€" +"\n");
+		System.out.print("8. "+quarta.panino2.nome +" "+quarta.panino2.prezzo +"€" +"\n");
+		System.out.print("9. "+quinta.panino1.nome +" "+quinta.panino1.prezzo +"€" +"\n");
+		System.out.print("10. "+quinta.panino2.nome +" "+quinta.panino2.prezzo +"€" +"\n");
+	}
+
+	public static void choice(Tipo_1 prima, Tipo_2 seconda, Tipo_3 terza, Tipo_4 quarta, Tipo_5 quinta,
+							  ArrayList purchased){
+		System.out.println("Prego, scegli il tuo panino");
 		stampaMenu(prima,seconda,terza,quarta,quinta);
 		System.out.print("\n >>>");
 
@@ -28,15 +48,19 @@ public class Main {
 		switch (scelta){
 			case 1:
 				purchased.add(prima.panino1);
+				prima.panino1.quantità=prima.panino1.quantità-1;
 				break;
 			case 2:
 				purchased.add(prima.panino2);
+				prima.panino2.quantità=prima.panino2.quantità-1;
 				break;
 			case 3:
 				purchased.add(seconda.panino1);
+				seconda.panino1.quantità=seconda.panino1.quantità-1;
 				break;
 			case 4:
 				purchased.add(seconda.panino2);
+				seconda.panino2.quantità=seconda.panino2.quantità-1;
 				break;
 			case 5:
 				purchased.add(terza.panino1);
@@ -63,22 +87,9 @@ public class Main {
 		scelta=input.nextInt();
 
 		if (scelta==1){
-			stampaMenu(prima,seconda,terza,quarta,quinta);
+			choice(prima, seconda, terza, quarta, quinta, purchased);
 		}else{
 			Scontrino.pagamento(purchased);
 		}
-	}
-
-	public static void stampaMenu(Tipo_1 prima, Tipo_2 seconda, Tipo_3 terza, Tipo_4 quarta, Tipo_5 quinta){
-		System.out.print("1. "+prima.panino1.nome +" "+prima.panino1.prezzo +"€" +"\n");
-		System.out.print("2. "+prima.panino2.nome +" "+prima.panino2.prezzo +"€" +"\n");
-		System.out.print("3. "+seconda.panino1.nome +" "+seconda.panino1.prezzo +"€" +"\n");
-		System.out.print("4. "+seconda.panino2.nome +" "+seconda.panino2.prezzo +"€" +"\n");
-		System.out.print("5. "+terza.panino1.nome +" "+terza.panino1.prezzo +"€" +"\n");
-		System.out.print("6. "+terza.panino2.nome +" "+terza.panino2.prezzo +"€" +"\n");
-		System.out.print("7. "+quarta.panino1.nome +" "+quarta.panino1.prezzo +"€" +"\n");
-		System.out.print("8. "+quarta.panino2.nome +" "+quarta.panino2.prezzo +"€" +"\n");
-		System.out.print("9. "+quinta.panino1.nome +" "+quinta.panino1.prezzo +"€" +"\n");
-		System.out.print("10. "+quinta.panino2.nome +" "+quinta.panino2.prezzo +"€" +"\n");
 	}
 }

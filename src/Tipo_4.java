@@ -7,8 +7,8 @@ public class Tipo_4 {
 	}
 
 	void composizione(){
-		panino1.nome="Numero1";
-		panino2.nome="Numero2";
+		panino1.nome="Maxi";
+		panino2.nome="SuperDuper Maxi";
 
 		panino1.prezzo= (int) (Math.random() * 10) +1;
 		panino2.prezzo= (int) (Math.random() * 10) +1;
