@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31ecaff6-ba2c-42ca-91bb-ac445d8fecf0" name="Changes" comment="ordering system corrections">
+    <list default="true" id="31ecaff6-ba2c-42ca-91bb-ac445d8fecf0" name="Changes" comment="Completed ordering system and payment system">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scontrino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scontrino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tipo_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tipo_5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674241123105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed ordering system and payment system">
+      <created>1674928570702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674928570702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +101,7 @@
     <MESSAGE value="Class Creation and setup" />
     <MESSAGE value="Menu Creation and ordering beta" />
     <MESSAGE value="ordering system corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="ordering system corrections" />
+    <MESSAGE value="Completed ordering system and payment system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed ordering system and payment system" />
   </component>
 </project>

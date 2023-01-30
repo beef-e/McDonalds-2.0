@@ -10,8 +10,8 @@ public class Tipo_4 {
 		panino1.nome="Maxi";
 		panino2.nome="SuperDuper Maxi";
 
-		panino1.prezzo= (int) (Math.random() * 10) +1;
-		panino2.prezzo= (int) (Math.random() * 10) +1;
+		panino1.prezzo= 7.50;
+		panino2.prezzo= 8.50;
 
 		panino1.codice= (int) (Math.random()*100+Math.random()*10)+4;
 		panino2.codice= (int) (Math.random()*100+Math.random()*10)+4;

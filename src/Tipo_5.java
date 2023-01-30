@@ -10,8 +10,8 @@ public class Tipo_5 {
 		panino1.nome="Baby";
 		panino2.nome="Non_così_Baby";
 
-		panino1.prezzo= (int) (Math.random() * 10) +1;
-		panino2.prezzo= (int) (Math.random() * 10) +1;
+		panino1.prezzo= 5.50;
+		panino2.prezzo= 6.50;
 
 		panino1.codice= (int) (Math.random()*100+Math.random()*10)+5;
 		panino2.codice= (int) (Math.random()*100+Math.random()*10)+5;
