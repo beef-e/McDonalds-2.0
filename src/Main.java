@@ -18,6 +18,8 @@ public class Main {
 		quarta.composizione();
 		quinta.composizione();
 
+		System.out.println("Benvenuto in McDonald's!");
+
 		choice(prima, seconda, terza, quarta, quinta, purchased);
 
 

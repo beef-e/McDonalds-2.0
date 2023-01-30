@@ -38,5 +38,22 @@ public class Scontrino {
 			totale=totale+purchased.get(i).prezzo;
 		}
 		System.out.println("TOTALE>>>   "+"€"+totale);
+		System.out.println("Scegliere il metodo di pagamento: \n1. Carta\n2.Contante\n\n>>>");
+		Scanner in=new Scanner(System.in);
+		int scelta=in.nextInt();
+		if (scelta==1){
+			System.out.println("Prego, avvicinare la carta al lettore");
+		} else if (scelta==2) {
+			System.out.println("Inserire l'ammontare di contanti inserito: ");
+			double incasso=in.nextInt();
+			if (incasso>=totale){
+				double resto=incasso-totale;
+				System.out.println("Pagamento ricevuto, il resto dovuto è di €"+resto);
+			}else{
+				System.out.println("L'importo inserito non è sufficiente a corpire le spese. Riprovare");
+				totale=0;
+				pagamento(purchased);
+			}
+		}
 	}
 }
